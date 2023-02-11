@@ -1,0 +1,37 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    border-top: 1px solid #552600;
+    background: #FFD1AA;
+}
+
+footer ul {
+    list-style-type: none;
+    font-size: 1.2em;
+    width: 20em;
+    margin: 0;
+    padding: 10px;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: #804515;
+}
+
+footer li {
+    color: #804515;
+    font-size: 0.75em;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+footer a:hover {
+    color: #D49A6A;
+}
+
+.footerEmail {
+    text-align: right;
+}

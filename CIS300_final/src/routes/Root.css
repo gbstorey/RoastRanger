@@ -1,0 +1,13 @@
+.wrapper {
+    background: #FFD1AA linear-gradient(#FFD1AA, #FFFFFF) no-repeat;
+}
+
+@media (min-width: 1024px) {
+    .wrapper {
+        margin: 20px auto;
+        width: 80%;
+        max-width: 1280px;
+        border: 1px solid #552600;
+        box-shadow: 3px 3px #804515;
+    }
+}

@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFD1AA linear-gradient(#FFD1AA, #FFFFFF) no-repeat;
+}

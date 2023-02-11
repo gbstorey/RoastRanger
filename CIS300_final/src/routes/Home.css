@@ -1,0 +1,98 @@
+main {
+    background-color: #ffddbb;
+    color: #552600;
+}
+
+.homeHero {
+    min-height: 475px;
+    display: flex;
+}
+
+.homeHeroText {
+    width: 70%;
+    padding: 50px 0 0 50px;
+}
+
+.homeHeroImage {
+    background-image: url("coffee_square.svg");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: 65%;
+    height: 475px;
+    width: 100%;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.homeHero h2 {
+    font-size: 2.5em;
+}
+
+.homeHero p {
+    padding-top: 2em;
+}
+
+.buttonRow {
+    display: flex;
+    margin: 50px 0;
+    gap: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.buttonRow a {
+    text-decoration: none;
+    padding: 10px 5px;
+    flex: 1;
+    background-color: #804515;
+    border: none;
+    border-radius: 20px;
+    color: #FFD1AA;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.buttonRow a:hover {
+    background-color: #D49A6A;
+}
+
+.testimonialsContainer {
+    display: flex;
+    padding: 0 50px 50px 50px;
+    justify-content: space-between;
+    gap:25px;
+}
+
+.testimonialsContainer article {
+    flex: 1;
+    padding: 10px;
+}
+
+.testimonialsContainer h3 {
+    padding-bottom: 20px;
+}
+
+.shopImages {
+    display: flex;
+    padding: 0 50px 50px 50px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.shopImages img {
+    display: block;
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 1px solid #552600;
+}
+
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }
+}

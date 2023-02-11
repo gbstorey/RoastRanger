@@ -1,0 +1,68 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    border-bottom: 1px solid #552600;
+    background: #FFD1AA;
+}
+
+header a {
+    text-decoration: none;
+    color: #804515;
+    font-size: 1em;
+}
+
+header a:hover {
+    color: #D49A6A;
+}
+
+.imgWrapper {
+    position: relative;
+    width: 5em;
+    height: 5em;
+    display: inline-block;
+}
+
+.logo {
+    position: absolute;
+    height: 80%;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.companyName {
+    padding-left: 30px;
+    display: inline;
+    font-size: 2em;
+    margin: 0;
+    justify-self: flex-start;
+}
+
+nav {
+    margin-left: auto;
+    padding: 0;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 1024px) {
+    nav {
+        display: inline;
+    }
+    nav ul {
+        display: inline-flex;
+        justify-content: flex-end;
+        gap: 0 0.75em;
+    }
+}
