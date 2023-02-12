@@ -1,0 +1,31 @@
+.aboutHeroImage {
+    background-image: url("about_banner.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.aboutHeroText {
+    min-width: 450px;
+    width: 40%;
+    padding: 20px 0 0 50px;
+}
+
+.aboutHeroText h1 {
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+
+.aboutHeroText p {
+    padding-bottom: 15px;
+}
+
+.aboutHeroText h3 {
+    padding-bottom: 50px;
+}
+
+.aboutHeroImage img {
+    width: 15em;
+    filter: invert(95%);
+}

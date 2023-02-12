@@ -1,7 +1,3 @@
-.wrapper {
-    background: #FFD1AA linear-gradient(#FFD1AA, #FFFFFF) no-repeat;
-}
-
 @media (min-width: 1024px) {
     .wrapper {
         margin: 20px auto;
