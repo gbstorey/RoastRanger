@@ -1,0 +1,67 @@
+fieldset {
+    margin: 20px 0;
+    padding: 20px;
+    border-color: #804515;
+    flex: 1 0 40%;
+    min-width: 485px;
+}
+
+fieldset legend {
+    padding: 0 10px;
+}
+
+fieldset input {
+    margin-right: 5px;
+}
+
+fieldset input:hover {
+    cursor: pointer;
+}
+
+fieldset label:hover {
+    background-color: #FFFFFF;
+}
+
+details {
+    margin-top: 10px;
+}
+
+details:hover {
+    cursor: pointer;
+}
+
+details ul {
+    padding-left: 50px;
+}
+
+details ul li {
+    line-height: 170%;
+}
+
+form button[type='submit'] {
+    margin: 25px 0;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 200px;
+}
+
+form button[type='submit']:hover {
+    background-color: #D49A6A;
+    cursor: pointer;
+}
+
+.preferenceWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px 30px;
+}
+
+.attributesCheckboxes {
+    column-count: 2;
+}
+
+.preferenceCheckbox {
+    padding: 0;
+}

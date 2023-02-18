@@ -79,6 +79,7 @@ main {
     padding: 0 50px 50px 50px;
     justify-content: space-between;
     text-align: center;
+    gap: 20px;
 }
 
 .shopImages img {

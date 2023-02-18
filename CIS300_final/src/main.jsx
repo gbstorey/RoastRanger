@@ -11,6 +11,7 @@ import ErrorPage from "./ErrorPage.jsx";
 import Home from "./routes/Home.jsx";
 import About from "./routes/About.jsx";
 import Contact from "./routes/Contact.jsx";
+import Preferences from "./routes/Preferences.jsx";
 
 const router = createBrowserRouter([
     {
@@ -32,7 +33,11 @@ const router = createBrowserRouter([
             },
             {
                 path: "/preferences",
-                element: <Contact />
+                element: <Preferences />
+            },
+            {
+                path: "/your_stores",
+                element: <Preferences />
             }
         ]
     },
