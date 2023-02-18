@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 50px 50px;
+}
+
+form label {
+    padding: 15px 0;
+}
+
+form input, textarea {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+form input[type='submit'] {
+    margin: 25px 0;
+    width: 200px;
+}
+
+form input[type='submit']:hover {
+    background-color: #D49A6A;
+    cursor: pointer;
+}
+
+form p {
+    margin: 15px 0;
+}

@@ -10,6 +10,7 @@ import Root from "./routes/Root.jsx";
 import ErrorPage from "./ErrorPage.jsx";
 import Home from "./routes/Home.jsx";
 import About from "./routes/About.jsx";
+import Contact from "./routes/Contact.jsx";
 
 const router = createBrowserRouter([
     {
@@ -24,6 +25,14 @@ const router = createBrowserRouter([
             {
                 path: "/about",
                 element: <About />
+            },
+            {
+                path: "/contact",
+                element: <Contact />
+            },
+            {
+                path: "/preferences",
+                element: <Contact />
             }
         ]
     },

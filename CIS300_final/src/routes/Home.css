@@ -77,7 +77,7 @@ main {
 .shopImages {
     display: flex;
     padding: 0 50px 50px 50px;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
 }
 

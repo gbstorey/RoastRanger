@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 50px;
     position: relative;
     border-bottom: 1px solid #552600;
     background: #FFD1AA;
@@ -30,12 +30,12 @@ header a:hover {
     height: 80%;
     display: block;
     top: 50%;
-    left: 50%;
+    left: 30px;
     transform: translate(-50%, -50%);
 }
 
 .companyName {
-    padding-left: 30px;
+    padding-left: 10px;
     display: inline;
     font-size: 2em;
     margin: 0;
