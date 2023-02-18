@@ -35,3 +35,11 @@ footer a:hover {
 .footerEmail {
     text-align: right;
 }
+
+.footerImgWrapper {
+    position: relative;
+    width: 5em;
+    height: 5em;
+    display: inline-block;
+    left: 12.5px;
+}

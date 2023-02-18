@@ -1,0 +1,38 @@
+.internalWrapper {
+    text-align: center;
+}
+
+.internalWrapper a {
+    text-decoration: none;
+    padding: 5px 10px;
+    flex: 1;
+    background-color: #804515;
+    border: none;
+    border-radius: 20px;
+    color: #FFD1AA;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.internalWrapper a:hover {
+    background-color: #D49A6A;
+    color: #552600;
+}
+.shopImages {
+    margin-top: 30px;
+}
+
+.cell {
+    text-align: center;
+}
+
+.cell img {
+    max-height: 320px;
+}
+
+.cell h4 {
+    margin-top: 10px;
+}
+
+.cell p {
+    margin: 10px 0 25px 0;
+}

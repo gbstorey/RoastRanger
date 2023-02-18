@@ -12,6 +12,7 @@ import Home from "./routes/Home.jsx";
 import About from "./routes/About.jsx";
 import Contact from "./routes/Contact.jsx";
 import Preferences from "./routes/Preferences.jsx";
+import YourStores from "./routes/YourStores.jsx";
 
 const router = createBrowserRouter([
     {
@@ -37,7 +38,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/your_stores",
-                element: <Preferences />
+                element: <YourStores />
             }
         ]
     },

@@ -18,7 +18,7 @@ const Footer = () => {
                     <NavLink to={"/contact"}>Contact Us</NavLink>
                 </li>
             </ul>
-            <div className={"imgWrapper"}>
+            <div className={"footerImgWrapper"}>
                 <img src={"../coffee.svg"} alt={"Roast Ranger logo"} className={"logo"}/>
             </div>
             <ul className={"footerEmail"}>

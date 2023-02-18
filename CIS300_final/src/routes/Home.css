@@ -10,14 +10,13 @@ main {
 
 .homeHeroText {
     width: 70%;
-    padding: 50px 0 0 50px;
 }
 
 .homeHeroImage {
     background-image: url("coffee_square.svg");
     background-size: 75%;
     background-repeat: no-repeat;
-    background-position: 65%;
+    background-position: 75% 10%;
     height: 475px;
     width: 100%;
     animation-name: floating;
@@ -60,14 +59,14 @@ main {
 
 .testimonialsContainer {
     display: flex;
-    padding: 0 50px 50px 50px;
     justify-content: space-between;
     gap:25px;
+    margin-bottom: 50px;
 }
 
 .testimonialsContainer article {
     flex: 1;
-    padding: 10px;
+    width: 30%;
 }
 
 .testimonialsContainer h3 {
@@ -76,10 +75,13 @@ main {
 
 .shopImages {
     display: flex;
-    padding: 0 50px 50px 50px;
     justify-content: space-between;
-    text-align: center;
-    gap: 20px;
+    text-align: left;
+    gap: 30px;
+}
+
+.cell {
+    width: 33%;
 }
 
 .shopImages img {

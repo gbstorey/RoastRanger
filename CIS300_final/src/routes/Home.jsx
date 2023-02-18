@@ -31,7 +31,7 @@ const Home = () => {
             </section>
             <section id={"shopImages"} className={"shopImages"}>
                 <div className={"cell"}>
-                    <img src={"shopImage1.jpg"} alt={"Infusion Nitro Drink"}/>
+                    <img src={"shopImage1.jpg"} alt={"Luana's Coffee Yard"}/>
                 </div>
                 <div className={"cell"}>
                     <img src={"shopImage2.jpg"} alt={"Light Heart Coffee Shop"}/>

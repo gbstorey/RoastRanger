@@ -5,6 +5,15 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #552600;
+}
+
 body {
     background: #FFFFFF linear-gradient(#FFD1AA, #FFFFFF) no-repeat;
+}
+
+main {
+    padding: 50px;
 }
