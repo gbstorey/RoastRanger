@@ -1,9 +1,14 @@
 import "./Home.css"
 import {NavLink} from "react-router-dom";
+import {Helmet} from "react-helmet";
 
 const Home = () => {
     return (
         <main>
+            <Helmet>
+                <title>Roast Ranger | Home</title>
+                <meta name="description" content={"Explore new coffee shops curated just for you. Select from specific qualities that not even Google lets you filter for."}/>
+            </Helmet>
             <section id={"homeHero"} className={"homeHero"}>
                 <div id={"homeHeroText"} className={"homeHeroText"}>
                     <h2>The tool to find the ultimate coffee experience.</h2>

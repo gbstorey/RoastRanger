@@ -1,8 +1,13 @@
 import "./About.css"
+import {Helmet} from "react-helmet";
 
 const About = () => {
     return (
         <main className={"aboutMain"}>
+            <Helmet>
+                <title>Roast Ranger | About Us</title>
+                <meta name="description" content={"Learn more about why Roast Ranger was founded and what we do for you."}/>
+            </Helmet>
             <div id={"aboutHeroImage"} className={"aboutHeroImage"}>
                 <div id={"aboutHeroText"} className={"aboutHeroText"}>
                     <h1>For A Better Cup</h1>

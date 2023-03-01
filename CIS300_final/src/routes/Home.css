@@ -43,11 +43,11 @@ main {
 
 .buttonRow a {
     text-decoration: none;
-    padding: 10px 5px;
+    padding: 12px 8px;
     flex: 1;
     background-color: #804515;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     color: #FFD1AA;
     font-weight: 600;
     transition: 0.3s;

@@ -13,6 +13,9 @@ import About from "./routes/About.jsx";
 import Contact from "./routes/Contact.jsx";
 import Preferences from "./routes/Preferences.jsx";
 import YourStores from "./routes/YourStores.jsx";
+import RecommendationOne from "./routes/RecommendationOne.jsx";
+import RecommendationTwo from "./routes/RecommendationTwo.jsx";
+import RecommendationThree from "./routes/RecommendationThree.jsx";
 
 const router = createBrowserRouter([
     {
@@ -39,6 +42,18 @@ const router = createBrowserRouter([
             {
                 path: "/your_stores",
                 element: <YourStores />
+            },
+            {
+                path: "/infusion",
+                element: <RecommendationOne />
+            },
+            {
+                path: "/recommendation2",
+                element: <RecommendationTwo />
+            },
+            {
+                path: "/recommendation3",
+                element: <RecommendationThree />
             }
         ]
     },

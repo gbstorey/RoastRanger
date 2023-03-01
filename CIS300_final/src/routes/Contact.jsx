@@ -1,9 +1,14 @@
 import "./Contact.css"
+import {Helmet} from "react-helmet";
 
 
 const Contact = () => {
     return (
         <main>
+            <Helmet>
+                <title>Roast Ranger | Contact Us</title>
+                <meta name="description" content={"Contact Roast Ranger using our online portal."}/>
+            </Helmet>
                 <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
                     <h1>Contact Us</h1>
                     <p>*Required fields are marked with an asterisk.</p>

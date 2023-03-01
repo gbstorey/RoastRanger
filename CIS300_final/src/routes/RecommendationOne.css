@@ -1,0 +1,87 @@
+.storeHero {
+    display: flex;
+    margin-bottom: 40px;
+}
+.storeHeroText {
+    max-width: 45%;
+}
+.storeHeroText h1 {
+    font-size: 2.75em;
+    margin: 0;
+}
+.storeHeroText p {
+    padding-top: 10px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.buttonRow {
+    margin: 20px 0;
+}
+.attributeSymbol {
+    width: 3em;
+    padding: 10px;
+    max-height: 2.75em;
+    margin-right: 10px;
+    background: #FFFFFF;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 4px 3px 5px 0 rgba(0,0,0,0.75);
+}
+.shopVideo {
+    margin-left: 50px;
+    text-align: right;
+    max-width: 50%;
+}
+.shopVideo video {
+    object-fit: cover;
+    width: 100%;
+    box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+}
+.storeInfo {
+    display: flex;
+}
+.recommendation {
+    background-color: #FFFFFF;
+    padding: 20px 25px;
+    position: relative;
+    flex: 1;
+    border: 1px solid #552600;
+    border-radius: 10px;
+    box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+}
+.recommendation p {
+    margin-top: 15px;
+}
+.infoContainer {
+    display: flex;
+    gap: 20px;
+}
+.postTime {
+    position: absolute;
+    top: 28px;
+    right: 25px;
+}
+
+.storeCell {
+    text-align: center;
+    border-radius: 25px;
+}
+
+.storeCell img {
+    max-height: 320px;
+}
+
+.shopHeroImage {
+    flex: 1;
+    text-align: right;
+}
+
+.shopHeroImage img {
+    width: 90%;
+    border: 1px solid #552600;
+}
+
+.lightHeartImages {
+    width: 70%;
+    margin: 0 auto;
+}

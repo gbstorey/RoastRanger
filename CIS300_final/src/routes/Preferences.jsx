@@ -1,5 +1,6 @@
 import "./Preferences.css"
 import PreferenceCheckbox from "../elements/PreferenceCheckbox.jsx";
+import {Helmet} from "react-helmet";
 
 const shop_types = [
     {id:"type_cafe_bakery", label:"Cafe Bakery", description: "Serves fresh-baked pastries, sandwiches, and light fare accompanied by, but not focused on, coffee and tea."},
@@ -53,6 +54,10 @@ const shop_drinks = [
 const Preferences = () => {
     return (
         <main>
+            <Helmet>
+                <title>Roast Ranger | Your Preferences </title>
+                <meta name="description" content={"View or update your preferences for coffee shop attributes."}/>
+            </Helmet>
             <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
                 <h1>Tell us about you!</h1>
                 <div className={"preferenceWrapper"}>
