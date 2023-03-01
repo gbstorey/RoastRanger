@@ -26,6 +26,8 @@ const RecommendationOne = () => {
                 <div className={"shopVideo"}>
                     <video controls>
                         <source src={"../roasting.mp4"} type={"video/mp4"}/>
+                        <source src={"../roasting.ogv"} type={"video/ogg"}/>
+                        <a href={"../roasting.mp4"}>Download the roasting video here.</a>
                     </video>
                 </div>
             </section>

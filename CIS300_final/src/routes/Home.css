@@ -61,11 +61,15 @@ main {
     display: flex;
     justify-content: space-between;
     gap:25px;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .testimonialsContainer article {
     flex: 1;
+    background: #fff2e2;
+    padding: 20px;
+    border: 1px solid #552600;
+    border-radius: 5px;
     width: 30%;
 }
 

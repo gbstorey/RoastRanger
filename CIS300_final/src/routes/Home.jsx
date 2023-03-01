@@ -20,6 +20,7 @@ const Home = () => {
                 </div>
                 <div id={"homeHeroImage"} className={"homeHeroImage"}></div>
             </section>
+            <h1>User Testimonials</h1>
             <section id={"testimonials"} className={"testimonialsContainer"}>
                 <article>
                     <h3>Megan Jones</h3>
